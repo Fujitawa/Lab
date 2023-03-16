@@ -1,0 +1,4 @@
+ErrorDocument 404 /index.html
+RewriteEngine On
+RewriteCond %{HTTP_REFERER} !^http://(www\.)?fujitawa.github.io/Lab/ [NC]
+RewriteRule \.(gif|jpg|jpeg|png)$ - [F]
