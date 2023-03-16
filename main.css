@@ -153,6 +153,7 @@ a:focus {
   color: var(--secondary-dark);
 }
 
+
 code {
   font-size: 85%;
   font-weight: 700;
@@ -234,11 +235,7 @@ pre {
   text-decoration: none;
 }
 
-.header-menu a:hover,
-.header-menu a:focus {
-  color: var(--secondary);
-  text-decoration: underline;
-}
+
 
 /* Layout
 --------------------------------------------------------------------------- */
@@ -280,11 +277,6 @@ pre {
   text-decoration: none;
 }
 
-.footer a:hover,
-.footer a:focus {
-  color: var(--secondary);
-  text-decoration: underline;
-}
 
 /* Images
 --------------------------------------------------------------------------- */
