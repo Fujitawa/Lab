@@ -367,7 +367,7 @@ figure img {
 
 .about-profile-picture img {
   width: 200px;
-  height: 200px;
+  height: auto;
 
   margin-inline: auto;
 }
