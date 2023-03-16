@@ -14,10 +14,10 @@
   --text: rgba(0, 0, 0, 0.88);
   --text-muted: rgba(0, 0, 0, 0.56);
 
-  /* https://colorhunt.co/palette/00bcd4b2ebf2ff5722dd2c00 */
-  --primary: #ff5722;
-  --secondary: #dd2c00;
-  --secondary-dark: #a22101;
+  /* https://colorhunt.co/palette/6096b493bfcfbdcdd6eee9da */
+  --primary: #6096B4;
+  --secondary: #93BFCF;
+  --secondary-dark: #BDCDD6;
 
   --code-bg: #eee;
 }
