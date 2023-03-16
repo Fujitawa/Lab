@@ -203,6 +203,13 @@ pre {
   color: var(--primary);
   text-decoration: none;
 }
+.header-menu a:hover {
+  color:var(--secondary);
+  text-decoration: underline;
+}
+.header-menu a:active {
+  color:var(--secondary-dark);
+}
 
 .header-logo {
   width: var(--logo-size);
@@ -277,6 +284,13 @@ pre {
   text-decoration: none;
 }
 
+.footer a:hover {
+  color:var(--secondary);
+  text-decoration: underline;
+}
+.footer a:active {
+  color:var(--secondary-dark);
+}
 
 /* Images
 --------------------------------------------------------------------------- */
