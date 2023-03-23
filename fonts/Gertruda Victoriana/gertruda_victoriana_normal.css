@@ -1,9 +1,0 @@
-@font-face {
-	font-family: 'Gertruda Victoriana Normal';
-	src: url('../fonts/gertruda_victoriana_normal.eot'); /* IE 9 Compatibility Mode */
-	src: url('../fonts/gertruda_victoriana_normal.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
-		url('../fonts/gertruda_victoriana_normal.woff2') format('woff2'), /* Super Modern Browsers */
-		url('../fonts/gertruda_victoriana_normal.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
-		url('../fonts/gertruda_victoriana_normal.ttf') format('truetype'), /* Safari, Android, iOS */
-		url('../fonts/gertruda_victoriana_normal.svg#gertruda_victoriana_normal') format('svg'); /* Chrome < 4, Legacy iOS */
-}
