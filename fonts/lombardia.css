@@ -1,9 +1,0 @@
-@font-face {
-	font-family: 'Lombardia';
-	src: url('../fonts/lombardia.eot'); /* IE 9 Compatibility Mode */
-	src: url('../fonts/lombardia.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
-		url('../fonts/lombardia.woff2') format('woff2'), /* Super Modern Browsers */
-		url('../fonts/lombardia.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
-		url('../fonts/lombardia.ttf') format('truetype'), /* Safari, Android, iOS */
-		url('../fonts/lombardia.svg#lombardia') format('svg'); /* Chrome < 4, Legacy iOS */
-}
