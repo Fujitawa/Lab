@@ -1,0 +1,238 @@
+/* Icons
+--------------------------------------------------------------------------- */
+@import url(https://raw.githubusercontent.com/Fujitawa/Lab/main/icons/css/fuji-embedded.css);
+@media all {
+        .l-top_menu-v2 .icon-profile:before,
+        .l-top_menu-v2 .icon-anime:before,
+        .l-top_menu-v2 .icon-manga:before,
+        .l-top_menu-v2 .icon-ranobe:before,
+        .l-top_menu-v2 .icon-forum:before,
+        .l-top_menu-v2 .icon-clubs:before,
+        .l-top_menu-v2 .icon-collections:before,
+        .l-top_menu-v2 .icon-articles:before,
+        .l-top_menu-v2 .icon-users:before,
+        .l-top_menu-v2 .icon-contests:before,
+        .l-top_menu-v2 .icon-critiques:before,
+        .l-top_menu-v2 .icon-calendar:before,
+        .l-top_menu-v2 .icon-info:before,
+        .l-top_menu-v2 .icon-socials:before,
+        .l-top_menu-v2 .icon-moderation:before,
+        .l-top_menu-v2 .icon-anime_list:before,
+        .l-top_menu-v2 .icon-manga_list:before,
+        .l-top_menu-v2 .icon-mail:before,
+        .l-top_menu-v2 .icon-achievements:before,
+        .l-top_menu-v2 .icon-settings:before,
+        .l-top_menu-v2 .icon-site_rules:before,
+        .l-top_menu-v2 .icon-faq:before,
+        .l-top_menu-v2 .icon-sign_out:before,
+        .profile-actions .mail:before,
+        .profile-actions .settings:before,
+        .profile-actions .ban:before,
+        .l-top_menu-v2 .menu-icon.forum:before,
+        .l-top_menu-v2 .menu-icon.contest:before,
+        .l-top_menu-v2 .menu-icon.mail:before,
+        .profile-actions .talk:before,
+        .profile-actions .fav-add:before,
+        .profile-actions .fav-remove:before,
+        .profile-actions .ignore-add:before,
+        .profile-actions .ignore-remove:before,
+        .b-subposter-action.new_comment:before,
+        .b-subposter-action.fav-add:before,
+        .b-subposter-action.fav-remove:before,
+        .b-subposter-action.edit:before,
+        .buttons .item-edit:before,
+        .buttons .item-delete:before,
+        .buttons .item-reply:before,
+        .l-top_menu-v2 .menu-icon.trigger:before,
+        .l-top_menu-v2 .global-search .search-marker:before,
+        .buttons .editor-smiley:before,
+        .buttons .editor-file:before,
+        .buttons .editor-spoiler:before,
+        .buttons .editor-quote:before,
+        .buttons .editor-image:before,
+        .buttons .editor-link:before,
+        .b-subposter-action.upload:before,
+        .b-subposter-action.invite:before,
+        .b-subposter-action.leave:before {
+                font-family: "fuji";
+        }
+
+        .submenu ::before {
+                font-size: 17px !important;
+        }
+
+        .l-top_menu-v2 .icon-profile:before {
+                content: "\e9b9";
+        }
+        .l-top_menu-v2 .icon-anime:before,
+        .l-top_menu-v2 .icon-anime_list:before {
+                content: "\eaac";
+        }
+
+        .l-top_menu-v2 .icon-manga:before,
+        .l-top_menu-v2 .icon-manga_list:before {
+                content: "\eb64";
+        }
+
+        .l-top_menu-v2 .icon-ranobe:before {
+                content: "\eb63";
+        }
+
+        .l-top_menu-v2 .icon-forum:before,
+        .l-top_menu-v2 .menu-icon.forum:before {
+                content: "\eb14";
+        }
+        .l-top_menu-v2 .icon-clubs:before {
+                content: "\e96f";
+        }
+
+        .l-top_menu-v2 .icon-collections:before {
+                content: "\e824";
+        }
+
+        .l-top_menu-v2 .icon-reviews:before {
+                content: "\ea05";
+        }
+
+        .l-top_menu-v2 .icon-critiques:before {
+                content: "\ea04";
+        }
+
+        .l-top_menu-v2 .icon-articles:before {
+                content: "\eba2";
+        }
+        .l-top_menu-v2 .icon-users:before {
+                content: "\e9bb";
+        }
+
+        .l-top_menu-v2 .icon-contests:before,
+        .l-top_menu-v2 .menu-icon.contest:before {
+                content: "\e897";
+        }
+
+        .l-top_menu-v2 .icon-calendar:before {
+                content: "\eb2b";
+        }
+
+        .l-top_menu-v2 .icon-info:before {
+                content: "\e9de";
+        }
+
+        .l-top_menu-v2 .icon-socials:before {
+                content: "\eb2a";
+        }
+
+        .l-top_menu-v2 .icon-moderation:before {
+                content: "\e8ec";
+        }
+
+        .l-top_menu-v2 .icon-mail:before,
+        .l-top_menu-v2 .menu-icon.mail:before,
+        .profile-actions .mail:before {
+                content: "\f0e0";
+        }
+        .profile-actions .talk:before {
+                content: "\f1d9";
+        }
+        .l-top_menu-v2 .icon-site_rules:before {
+                content: "\e910";
+        }
+
+        .l-top_menu-v2 .icon-faq:before {
+                content: "\f29c";
+        }
+
+        .l-top_menu-v2 .icon-sign_out:before {
+                content: "\f02d";
+        }
+
+        .l-top_menu-v2 .icon-settings:before,
+        .profile-actions .settings:before {
+                content: "\e917";
+        }
+
+        .l-top_menu-v2 .icon-achievements:before {
+                content: "\eb55";
+        }
+        .profile-actions .ban:before {
+                content: "\e8ec";
+        }
+
+        .profile-actions .fav-add:before {
+                content: "\e9bd";
+        }
+        .profile-actions .fav-remove:before {
+                content: "\e9bf";
+        }
+
+        .profile-actions .ignore-add:before {
+                content: "\e83f";
+        }
+        .profile-actions .ignore-remove:before {
+                content: "\e83e ";
+        }
+
+        .b-subposter-action.new_comment:before {
+                content: "\ee0e";
+        }
+        .b-subposter-action.fav-add:before {
+                content: "\eae7";
+        }
+        .b-subposter-action.fav-remove:before {
+                content: "\eae6";
+        }
+        .b-subposter-action.edit:before {
+                content: "\ea03";
+        }
+        .buttons .item-edit:before {
+                content: "\ed35";
+        }
+        .buttons .item-delete:before {
+                content: "\eb1a";
+        }
+        .buttons .item-delete:hover:before {
+                content: "\eb1b";
+        }
+        .buttons .item-reply:before {
+                content: "\e9fc";
+        }
+
+        .l-top_menu-v2 .menu-icon.trigger:before {
+                background: inherit;
+                content: "\e9ca" !important;
+                font-size: 20px !important;
+        }
+        .l-top_menu-v2 .global-search .search-marker:before {
+                content: "\ecf2";
+                font-size: 15px;
+        }
+
+        .buttons .editor-smiley:before {
+                content: "\e810";
+        }
+        .buttons .editor-file:before {
+                content: "\e9f7";
+        }
+
+        .buttons .editor-spoiler:before {
+                content: "\e994";
+        }
+        .buttons .editor-quote:before {
+                content: "\eb06";
+        }
+        .buttons .editor-image:before {
+                content: "\e820";
+        }
+        .buttons .editor-link:before {
+                content: "\f07b";
+        }
+        .b-subposter-action.upload:before {
+                content: "\e9fa";
+        }
+        .b-subposter-action.invite:before {
+                content: "\e9be";
+        }
+        .b-subposter-action.leave:before {
+                content: "\ee56";
+        }
+}
