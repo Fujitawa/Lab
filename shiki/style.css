@@ -30,7 +30,7 @@ body {
 body#profiles_show {
   background-color: #bfdfec;
   background-repeat: repeat-x;
-  background-image: url(https://newlab.ga/shi/cloud.png);
+  background-image: url(https://raw.githubusercontent.com/Fujitawa/Lab/main/shiki/clouds.png);
   animation: movement 10s linear infinite;
 }
 @keyframes movement {
