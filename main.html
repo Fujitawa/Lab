@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Editable Blog</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+}
+
+h1, h2, p {
+    margin-bottom: 20px;
+}
+
+.blog-post {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.save-btn {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+</style>
+</head>
+<body>
+    <h1>My Blog</h1>
+    <div id="blog-posts">
+        <div class="blog-post">
+            <h2 class="post-title" contenteditable="true">Post Title</h2>
+            <p class="post-content" contenteditable="true">This is a sample blog post. Click to edit!</p>
+        </div>
+    </div>
+    <button id="save-btn">Save</button>
+    <script src="script.js"></script>
+</body>
+</html>
+
