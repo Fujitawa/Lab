@@ -203,7 +203,7 @@
         }
         .l-top_menu-v2 .global-search .search-marker:before {
                 content: "\ecf2";
-                font-size: 15px;
+                font-size: 12px;
         }
 
         .buttons .editor-smiley:before {
