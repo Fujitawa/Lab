@@ -513,6 +513,9 @@ alternateTheme.innerHTML = `
     color: #ffffff;
     border-color: rgba(255, 255, 255, 0.34);
   }
+  .b-spoiler_block>div {
+  color:black;
+  }
   .b-spoiler label:active {
     color: #fff;
     border-color: #fff;
