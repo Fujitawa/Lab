@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flore, Sophrologue</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  </head>
+  <body>
+    <main>
+         <!------- JS ------->
+          <!----- SWIPER ----> 
+          <script>
+            document.addEventListener("DOMContentLoaded", function() {
+              var swiper = new Swiper(".swiper-container", {
+                slidesPerView: 3,
+                spaceBetween: 30,
+                navigation: {
+                  nextEl: ".swiper-button-next",
+                  prevEl: ".swiper-button-prev",
+                },
+                pagination: {
+                  el: ".swiper-pagination",
+                  clickable: true,
+                },
+              });
+            });
+          </script>
+          <!----- SWITCHER ---->
+          <script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const themeSwitcher = document.querySelector('.theme-switcher');
+    const body = document.body;
+    // Check for saved theme preference
+    const savedTheme = localStorage.getItem('theme');
+    if (savedTheme) {
+      body.setAttribute('data-theme', savedTheme);
+    }
+    themeSwitcher.addEventListener('click', () => {
+      const currentTheme = body.getAttribute('data-theme');
+      if (currentTheme === 'dark') {
+        body.setAttribute('data-theme', '');
+        localStorage.setItem('theme', '');
+      } else {
+        body.setAttribute('data-theme', 'dark');
+        localStorage.setItem('theme', 'dark');
+      }
+    });
+  });
+</script>
+
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId            : 'your-app-id',
+      autoLogAppEvents : true,
+      xfbml            : true,
+      version          : 'v16.0'
+    });
+  };
+</script>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
+
+
+      <div class="menu">
+        <img class="header-logo" src="https://images.unsplash.com/photo-1545389336-cf090694435e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80" alt="Picture">
+        <br>
+        <span style="
+    font-family: 'Instagram Sans Headline', sans-serif;
+    font-size: 17px;
+"> Flore, sophrologue</span>
+        <div class="theme-switcher">
+          <i class="fas fa-adjust"></i>
+        </div>
+        <ul>
+          <li>
+            <a href="#1"> 🧘🏻‍♀️Qui suis-je?</a>
+          </li>
+          <li>
+            <a href="#2">📜 Méthode</a>
+          </li>
+          <li>
+            <a href="#3">📨 Contact</a>
+          </li>
+          <li>
+            <a href="#4">📝 Avis</a>
+          </li>
+          <li>
+            <a href="#5">🤳🏻 Prendre un RDV</a>
+          </li>
+        </ul>
+      </div>
+      <div class="all">
+
+                <!--- SECTION--->
+
+        <section id="1">
+          <div class="box-container">
+            <hr class="line" />
+            <div class="box">
+              <span class="text">Qui suis-je?</span>
+            </div>
+            <hr class="line" />
+          </div>
+          <p>Bonjour et bienvenue sur mon site ! <br>
+            <br>Je m'appelle Flore, et je suis une sophrologue passionnée et expérimentée, dédiée à aider les personnes à trouver l'équilibre, la paix intérieure et l'épanouissement dans leur vie. Avec un parcours riche en expériences et en formations, j'ai acquis une solide expertise dans la pratique de la sophrologie, qui m'a permis d'accompagner des personnes de tous horizons et de tous âges. <br>
+            <br> Depuis mon plus jeune âge, j'ai été fascinée par le potentiel de l'esprit humain et la manière dont il influence notre bien-être global. Cette curiosité m'a conduite à explorer différentes approches du développement personnel, jusqu'à ce que je découvre la sophrologie. Ce fut une véritable révélation pour moi, car j'ai immédiatement compris la puissance de cette méthode pour transformer la vie des gens. <br>
+            <br> Après avoir obtenu mon diplôme en sophrologie, j'ai commencé à travailler avec des clients, en m'appuyant sur ma propre expérience de vie et sur les enseignements que j'ai reçus pour créer un accompagnement sur mesure. Mon approche est fondée sur l'empathie, l'écoute et la bienveillance, afin de vous offrir un espace sécurisant pour explorer vos ressources intérieures et développer vos capacités à faire face aux défis de la vie. <br>
+            <br> Au fil des années, j'ai eu l'occasion d'accompagner de nombreuses personnes dans leur cheminement personnel, en les aidant à surmonter le stress, les angoisses, les blocages émotionnels et les difficultés relationnelles. J'ai également collaboré avec des entreprises et des institutions, en proposant des ateliers et des formations pour améliorer la qualité de vie au travail et favoriser la cohésion d'équipe. <br>
+            <br> Ma passion pour la sophrologie et mon engagement envers le bien-être des autres sont les moteurs qui m'animent au quotidien. Je suis convaincue que chacun possède en lui des ressources insoupçonnées et un potentiel immense pour vivre une vie épanouissante, sereine et heureuse. Mon objectif est de vous guider sur ce chemin, en vous offrant les outils et les techniques nécessaires pour déployer vos ailes et vous envoler vers une vie meilleure.
+          </p>
+        </section>
+                <!--- SECTION--->
+
+        <section id="2">
+          <div class="box-container">
+            <hr class="line" />
+            <div class="box">
+              <span class="text">Méthode</span>
+            </div>
+            <hr class="line" />
+          </div>
+          </a>
+          <p>Ma méthode s'appuie sur les principes fondamentaux de la sophrologie, combinant des techniques de relaxation, de respiration et de visualisation pour créer une approche holistique du bien-être. Chaque séance est personnalisée en fonction des besoins et des objectifs de chaque individu, permettant ainsi une évolution adaptée et harmonieuse. <br>
+            <br> Le processus commence par une phase d'écoute et de compréhension de vos besoins, afin de déterminer les objectifs à atteindre et les techniques les plus appropriées pour y parvenir. Ensuite, nous travaillerons ensemble pour développer votre conscience corporelle, émotionnelle et mentale à travers des exercices de relaxation et de respiration, qui vous permettront de vous recentrer et de vous détendre profondément. <br>
+            <br> Au fur et à mesure des séances, nous intégrerons des techniques de visualisation pour stimuler votre imagination et renforcer votre capacité à gérer le stress, les émotions et les pensées négatives. En fin de compte, ma méthode vise à vous offrir les outils et la confiance nécessaires pour faire face aux défis de la vie avec sérénité et équilibre. Je vous invite à explorer mon site pour en savoir plus sur mon parcours, mes services et les bienfaits de la sophrologie. N'hésitez pas à me contacter pour toute question ou pour prendre rendez-vous. Ensemble, nous trouverons le chemin vers une vie plus épanouissante et sereine.
+          </p>
+        </section>
+                <!--- SECTION--->
+
+        <section id="3">
+          <div class="box-container">
+            <hr class="line" />
+            <div class="box">
+              <span class="text">Contact</span>
+            </div>
+            <hr class="line" />
+          </div>
+          </a>
+          <p>📍 Champ de Mars, 5 Av. Anatole France</p>
+          <p>📧 Sophrologue@mail.com</p>
+          <p>☎️ +33 000 00 00 00</p>
+        </section>
+        <!--- SECTION--->
+
+        <section id="4">
+          <div class="box-container">
+            <hr class="line" />
+            <div class="box">
+              <span class="text">Avis</span>
+            </div>
+            <hr class="line" />
+          </div>
+          <br>
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <!-- Sliders -->
+              <div class="swiper-slide">
+                <img src="https://images.unsplash.com/photo-1603988533324-9e39be986394?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80
+" alt="pic" />
+                <span> Julie </span>
+                <p>La séance de sophrologie avec Flore était tout simplement merveilleuse, méritant aisément 5 étoiles. Flore a fait preuve d'une grande professionnalisme et d'une passion évidente pour son métier, instaurant une atmosphère chaleureuse et relaxante. Une expérience à recommander sans hésiter !</p>
+              </div>
+              <div class="swiper-slide">
+                <img src="https://images.unsplash.com/photo-1573497019236-17f8177b81e8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="pic" />
+                <span>Alexandra</span>
+                <p>La séance a été une expérience inoubliable. Grâce à son expertise et son approche bienveillante, Flore a su créer un environnement apaisant et enrichissant. Une séance à ne pas manquer pour les amateurs de bien-être et de détente !</p>
+              </div>
+              <div class="swiper-slide">
+                <img src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt="pic" />
+                <span> Pierre </span>
+                <p>La séance a été extraordinaire, valant assurément 5 étoiles. L'approche personnalisée et l'atmosphère détendue ont créé une expérience unique et inoubliable. Recommandé vivement pour tous !</p>
+              </div>
+              <div class="swiper-slide">
+                <img src="https://images.unsplash.com/photo-1624526691205-0e2870f30702?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="pic" />
+                <span> Pascal </span>
+                <p>La séance a été époustouflante, méritant pleinement 5 étoiles. L'expertise démontrée et l'environnement apaisant ont rendu cette expérience réellement enrichissante. À essayer absolument !</p>
+              </div>
+              <!-- Sliders -->
+            </div>
+            <!-- Navigation -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+
+          <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v16.0" nonce="9VJscuur"></script>
+
+
+<div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-width="500" data-numposts="5"></div>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>
